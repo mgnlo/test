@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>喬昱科技</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./js/effect.js"></script>
+    <link href="./css/main.css" rel="stylesheet">
+    <link href="./css/timeline.css" rel="stylesheet">
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60" cz-shortcut-listen="true">
+    <header id="nav-bar"></header>
+    <div class="jumbotron jombotron_ser">
+        <h1>服務內容</h1>
+        <h3 style="letter-spacing: 1px;">Service Content</h3>
+        <h5 class="description">提供您最專業的服務</h5>
+    </div>
+    <div id="service" class="container-fluid">
+        <div class="row">
+            <div id="services" class="container-fluid text-center">
+                <div class="row slideanim">
+                    <div>
+                        <div class="cells">
+                            <div class="cell" data-toggle="modal" data-target="#rsaModal"></div>
+                            <div class="cell" data-toggle="modal" data-target="#bsModal"></div>
+                            <div class="cell" data-toggle="modal" data-target="#ehModal"></div>
+                            <div class="cell" data-toggle="modal" data-target="#sModal"></div>
+                        </div>
+                    </div>
+                    <div id="service-modal"></div>
+                    <div class="cards">
+                        <div class="card">
+                            <div class="cardIcon">
+                                <div class="iconPos">
+                                    <img class="rounded-circle" src="./img/core-b.png" style="margin-top: 10px;">
+                                    <h4 class="title">核心業務</h4>
+                                </div>
+                            </div>
+                            <div class="serviceCard">
+                                <li class="title"><img class="rounded-circle" src="./img/core-b.png" style="margin-top: 10px;">核心業務</li>
+                                <li>金融業相關系統開發</li>
+                                <li>網路安全規劃</li>
+                                <li>知識管理 與 Portal相關應用系統建置</li>
+                                <li>商業智慧 與 資料倉儲相關應用系統建置</li>
+                                <li>J2EE .NET專案規劃 與 專業人力服務</li>
+                                <li>BO產品工具平台開發及維護</li>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="cardIcon">
+                                <div class="iconPos">
+                                    <img class="rounded-circle" src="./img/tools.png">
+                                    <h4 class="title">系統軟體<br/>開發及維護</h4>
+                                </div>
+                            </div>
+                            <div class="serviceCard">
+                                <li>Web SVR</li>
+                                <li>AP SVR</li>
+                                <li>Portal SVR</li>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="cardIcon">
+                                <div class="iconPos">
+                                    <img class="rounded-circle" src="./img/file.png">
+                                    <h4 class="title">資訊軟體<br/>規劃及建置</h4>
+                                </div>
+                            </div>
+                            <div class="serviceCard">
+                                <li>個金網銀</li>
+                                <li>企金網銀</li>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="cardIcon">
+                                <div class="iconPos">
+                                    <img class="rounded-circle" src="./img/puzzle-b.png">
+                                    <h4 class="title">e-Commerce<br>資訊系統整合服務</h4>
+                                </div>
+                            </div>
+                            <div class="serviceCard">   
+                                <li>EAI</li>
+                                <li>主機</li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="container-fluid text-center" id="footer"></footer>
+    </div>
+    <script src="./js/serviceModal.js"></script>
+    <script src="./js/footer.js"></script>
+    <script src="./js/navBar.js"></script>
+</body>
+
+</html>
