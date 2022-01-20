@@ -565,7 +565,7 @@ footer .glyphicon {
 	}
 	.iconPos .title {
 		margin-top: 5px;
-		font-size:16px!important;
+		font-size:16px;
 	}
 	.rounded-circle{
 		width:25px;
@@ -627,13 +627,24 @@ footer .glyphicon {
 }
 
 @media only screen and (max-width: 480px) {
+	.iconPos{
+		width: 130px;
+	}
+	.iconPos .title{
+	        font-size: 14px;
+	}
 	.serviceCard .title{
 		display: block;
-    	margin: 5px 0;
+    		margin: 5px 0;
 		text-align: center;
 	}
 	.serviceCard .title img{
 		margin-bottom: 10px;
+	}
+	.card:nth-child(1) .title{
+		font-size: 16px;
+		font-weight: bolder;
+		margin-left: -88px;
 	}
 	.card:nth-child(1) .iconPos{
 		display: none;
@@ -644,6 +655,9 @@ footer .glyphicon {
 	.card .serviceCard{
 		margin-left: 0;
 	}
+	.card .cardIcon{
+       		width: 120px;
+    	}
 	.logo {
 		font-size: 150px;
 	}
@@ -651,18 +665,20 @@ footer .glyphicon {
 		flex-wrap: wrap;
 		justify-content: center;
 	}
-	
+	.card:nth-child(1){
+        	border-radius: 40px;
+    	}
 	.cells .cell{
 		height: 100px;
 		width: 140px;
 		margin: 5px;
 	}
 	.card:not(:nth-child(1)) .serviceCard li {
-		padding-left: 50px;
+		padding-left: 10px;
 	}
 	.card:nth-child(1) .serviceCard li {
 		list-style-type: auto;
-		margin-left: -92px;
+		margin-left: -100px;
 	}
 	.card:nth-child(1) .serviceCard li:last-child {
 		margin-bottom: 30px;
