@@ -1,7 +1,9 @@
 const tl = React.createElement;
 let timeLines = [
+    {year:2022, toNow: true, description:'導入Jumio AML & KYC 全球智能身份識別驗證服務。符合最嚴格的歐盟GDPR規範。支援全球200多個國家證件及智能活體驗身份驗證。'},
+    {year:2022, toNow: true, description:'導入Noname API Security 解決方案。業界獨創的DART管理功能，符合OWASP 10大API資安管理規範要求並有效抵禦API資安攻擊。'},
     {year:2021, toNow: true, description:'導入ExtraHop Network Detection & Response Solution 業界先進的智能網路流量偵測及回應資安分析 NDR 解決方案。'},
-    {year:2021, toNow: true, description:'導入銷BitSight Security Rating Service－全球 No.1 及業界標準的資安風險評級 (Security Rating / Security Scoring) 服務。'},
+    {year:2021, toNow: true, description:'導入BitSight Security Rating Service－全球 No.1 及業界標準的資安風險評級 (Security Rating / Security Scoring) 服務。'},
     {year:2015, toNow: true, description:'國內30家以上大型金融機構及金控持續並大量採用RSA外部偽冒偵測關閉服務 (FraudAction Service)'},
     {year:2014, toNow: false, description:'喬昱科技與凱擘大電視、亞太電信、國喬石化、怡德視訊等企業簽署設備供應合約。'},
     {year:2013, toNow: false, description:'第一銀行採用RSA反釣魚網站及反木馬監測服務'},

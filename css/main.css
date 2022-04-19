@@ -631,11 +631,11 @@ footer .glyphicon {
 		width: 130px;
 	}
 	.iconPos .title{
-	        font-size: 14px;
+		font-size: 14px;
 	}
 	.serviceCard .title{
 		display: block;
-    		margin: 5px 0;
+    	margin: 5px 0;
 		text-align: center;
 	}
 	.serviceCard .title img{
@@ -643,7 +643,7 @@ footer .glyphicon {
 	}
 	.card:nth-child(1) .title{
 		font-size: 16px;
-		font-weight: bolder;
+    	font-weight: bolder;
 		margin-left: -88px;
 	}
 	.card:nth-child(1) .iconPos{
@@ -656,8 +656,8 @@ footer .glyphicon {
 		margin-left: 0;
 	}
 	.card .cardIcon{
-       		width: 120px;
-    	}
+		width: 120px;
+	}
 	.logo {
 		font-size: 150px;
 	}
@@ -666,8 +666,9 @@ footer .glyphicon {
 		justify-content: center;
 	}
 	.card:nth-child(1){
-        	border-radius: 40px;
-    	}
+		border-radius: 40px;
+	}
+	
 	.cells .cell{
 		height: 100px;
 		width: 140px;
