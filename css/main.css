@@ -40,11 +40,14 @@ body {
 	background-position: top;
 }
 
+.jumioBox {
+	display: inline-flex;
+	margin: 18% 0 0 10%;
+}
+
 .jumioBg {
 	background-image: url("../img/jumioBg.jpg");
 	background-repeat: no-repeat;
-	background-position: 0px -100px;
-	background-size: cover;
 	height: 100%;
 }
 
@@ -144,14 +147,15 @@ body {
 	display: none;
 }
 @media only screen and (min-width:1126px) {
+	.jumioBox {
+		display: inline-flex;
+		margin: 18% 0 0 10%;
+		height: 100%;
+	}
 	.jumioBg {
 		background-image: url("../img/jumioBg.jpg");
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-		background-position: center;
-		height: 100%;
+		background-size: 125%;
+    	background-position: 50% -250px;
 	}
 	.cells{
 		width:800px;
@@ -180,12 +184,15 @@ body {
 	}
 }
 @media only screen and (max-width:1126px) {
+	.jumioBox {
+		display: inline-flex;
+		margin: 18% 0 0 10%;
+		height: 100%;
+	}
 	.jumioBg {
 		background-image: url("../img/jumioBg.jpg");
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
+		background-position: 50% -250px;
+    	background-size: 150%;
 	}
 	.jumioMsg {
 		top: 50%;
@@ -220,6 +227,11 @@ body {
 
  
 @media only screen and (max-width:990px) {
+	.jumioBox {
+		display: inline-block;
+		margin: unset;
+		padding-bottom: 70vh;
+	}
 	.logo {
 		margin: 5% auto;
 		display: block;
@@ -601,6 +613,11 @@ footer .glyphicon {
 }
 
 @media only screen and (max-width: 768px) {
+	.jumioBox {
+		display: inline-block;
+		margin: unset;
+		padding-bottom: 70vh;
+	}
 	.jumioBg {
 		background-image: url("../img/jumioBg2.jpg");
 		background-position: 45% 50%;
@@ -680,10 +697,15 @@ footer .glyphicon {
 }
 
 @media only screen and (max-width: 554px) {
+	.jumioBox {
+		display: inline-block;
+		margin: unset;
+		padding-bottom: 70vh;
+	}
 	.jumioBg {
 		background-image: url("../img/jumioBg2.jpg");
-		background-position: 45% 40%;
-		background-size: 80vh;
+		background-position: 50% 0;
+		background-size: 125%;
 	}
 	.cells{
 		flex-wrap: wrap;
