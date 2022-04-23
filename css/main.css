@@ -179,7 +179,6 @@ body {
 @media only screen and (max-width:1126px) {
 	.jumioBg {
 		background-image: url("../img/jumioBg.jpg");
-		background-position: 0px -40px;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
