@@ -25,7 +25,9 @@
 
 body {
 	color: #818181;
-	height: 100%;
+	position: relative;
+    margin: 0;
+	height: 100vh;
 	/* font: 400 15px 'Source Sans Pro', serif; */
 }
 
