@@ -625,8 +625,8 @@ footer .glyphicon {
 	.jumioMsg {
 		position: unset;
 		color: white;
-		margin-top: 25vh;
-		padding-bottom: unset;
+		margin-top: 15vh;
+    	padding-bottom: 10vh;
 	}
 	.card .cardIcon{
 		width:130px;
@@ -698,11 +698,11 @@ footer .glyphicon {
 	.jumioBox {
 		display: inline-block;
 		margin: unset;
-		padding-bottom: 70vh;
+		padding-bottom: 55vh;
 	}
 	.jumioBg {
 		background-image: url("../img/jumioBg2.jpg");
-		background-position: 50% -100px;
+		background-position: 50% 3/4;
 		background-size: 120%;
 	}
 	.cells{
