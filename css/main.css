@@ -40,7 +40,7 @@ body {
 .jumioBg {
 	background-image: url("../img/jumioBg.jpg");
 	background-repeat: no-repeat;
-	background-position: 0px 55%;
+	background-position: 0px -100px;
 	background-size: cover;
 	height: 100%;
 }
@@ -143,7 +143,7 @@ body {
 @media only screen and (min-width:1126px) {
 	.jumioBg {
 		background-image: url("../img/jumioBg.jpg");
-		background-position: 0px 55%;
+		background-position: 0px -100px;
 		background-size: cover;
 		height: 100%;
 	}
@@ -176,7 +176,7 @@ body {
 @media only screen and (max-width:1126px) {
 	.jumioBg {
 		background-image: url("../img/jumioBg.jpg");
-		background-position: 0px -100px;
+		background-position: 0px 50%;
 		background-size: cover;
 		height: 100%;
 	}
