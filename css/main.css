@@ -250,7 +250,6 @@ body {
 		top: 10vh;
 		position: absolute;
 		color: white;
-		font-size: unset;
 		padding-bottom: unset;
 	}
 }
@@ -625,9 +624,9 @@ footer .glyphicon {
 	}
 	.jumioMsg {
 		top: 10vh;
-		position: absolute;
+		position: unset;
 		color: white;
-		font-size: unset;
+		margin-top: 25vh;
 		padding-bottom: unset;
 	}
 	.card .cardIcon{
@@ -704,8 +703,8 @@ footer .glyphicon {
 	}
 	.jumioBg {
 		background-image: url("../img/jumioBg2.jpg");
-		background-position: 50% 0;
-		background-size: 125%;
+		background-position: 50% 20px;
+		background-size: 120%;
 	}
 	.cells{
 		flex-wrap: wrap;
