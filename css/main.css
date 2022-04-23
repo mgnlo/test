@@ -40,7 +40,7 @@ body {
 .jumioBg {
 	background-image: url("../img/jumioBg.jpg");
 	background-repeat: no-repeat;
-	background-position: 0px -100px;
+	background-position: 0px 55%;
 	background-size: cover;
 	height: 100%;
 }
