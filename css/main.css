@@ -143,8 +143,11 @@ body {
 @media only screen and (min-width:1126px) {
 	.jumioBg {
 		background-image: url("../img/jumioBg.jpg");
-		background-position: 0px -100px;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
 		background-size: cover;
+		background-position: center;
 		height: 100%;
 	}
 	.cells{
@@ -176,15 +179,15 @@ body {
 @media only screen and (max-width:1126px) {
 	.jumioBg {
 		background-image: url("../img/jumioBg.jpg");
-		background-position: 0px 50%;
+		background-position: 0px -40px;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
 		background-size: cover;
-		height: 100%;
 	}
 	.jumioMsg {
-		top: 10vh;
+		top: 50%;
 		position: absolute;
-		color: white;
-		font-size: unset;
 		padding-bottom: unset;
 	}
 	.cells{
