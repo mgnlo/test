@@ -623,7 +623,6 @@ footer .glyphicon {
 		background-size: 100vw;
 	}
 	.jumioMsg {
-		top: 10vh;
 		position: unset;
 		color: white;
 		margin-top: 25vh;
@@ -703,7 +702,7 @@ footer .glyphicon {
 	}
 	.jumioBg {
 		background-image: url("../img/jumioBg2.jpg");
-		background-position: 50% 20px;
+		background-position: 50% -100px;
 		background-size: 120%;
 	}
 	.cells{
