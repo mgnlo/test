@@ -37,6 +37,22 @@ body {
 	background-position: top;
 }
 
+.jumioBg {
+	background-image: url("../img/jumioBg.jpg");
+	background-repeat: no-repeat;
+	background-position: 0px -100px;
+	background-size: cover;
+}
+
+.jumioMsg {
+	padding-bottom: 10%;
+	margin-left: 10%;
+	color: #50528f;
+	font-size: 18px;
+	font-weight: 600;
+	white-space: pre-line;
+}
+
 .logo {
 	margin: 3% auto auto 3%;
 }
@@ -123,7 +139,7 @@ body {
 .serviceCard .title{
 	display: none;
 }
-@media only screen and (min-width:1126px) {
+@media only screen and (min-width:1126px) { 
 	.cells{
 		width:800px;
 		flex-wrap: wrap;
@@ -151,6 +167,18 @@ body {
 	}
 }
 @media only screen and (max-width:1126px) {
+	.jumioBg {
+		background-image: url("../img/jumioBg2.jpg");
+		background-position: 40% 50%;
+		background-size: 100vw;
+	}
+	.jumioMsg {
+		top: 10vh;
+		position: absolute;
+		color: white;
+		font-size: unset;
+		padding-bottom: unset;
+	}
 	.cells{
 		flex-wrap: wrap;
 		justify-content: center;
@@ -187,6 +215,18 @@ body {
 	}
 	.card:nth-child(odd), .card:nth-child(even){
 		width:45%;
+	}
+	.jumioBg {
+		background-image: url("../img/jumioBg2.jpg");
+		background-position: 45% 45%;
+		background-size: 100vw;
+	}
+	.jumioMsg {
+		top: 10vh;
+		position: absolute;
+		color: white;
+		font-size: unset;
+		padding-bottom: unset;
 	}
 }
 
@@ -548,6 +588,18 @@ footer .glyphicon {
 }
 
 @media only screen and (max-width: 768px) {
+	.jumioBg {
+		background-image: url("../img/jumioBg2.jpg");
+		background-position: 45% 50%;
+		background-size: 100vw;
+	}
+	.jumioMsg {
+		top: 10vh;
+		position: absolute;
+		color: white;
+		font-size: unset;
+		padding-bottom: unset;
+	}
 	.card .cardIcon{
 		width:130px;
 		height:130px;
@@ -615,6 +667,11 @@ footer .glyphicon {
 }
 
 @media only screen and (max-width: 554px) {
+	.jumioBg {
+		background-image: url("../img/jumioBg2.jpg");
+		background-position: 45% 50%;
+		background-size: 100vh;
+	}
 	.cells{
 		flex-wrap: wrap;
 		justify-content: center;
