@@ -40,7 +40,7 @@ body {
 .jumioBg {
 	background-image: url("../img/jumioBg.jpg");
 	background-repeat: no-repeat;
-	background-position: 0px -100px;
+	background-position: 0px -50px;
 	background-size: cover;
 }
 
@@ -669,7 +669,7 @@ footer .glyphicon {
 @media only screen and (max-width: 554px) {
 	.jumioBg {
 		background-image: url("../img/jumioBg2.jpg");
-		background-position: 45% 30%;
+		background-position: 45% 40%;
 		background-size: 80vh;
 	}
 	.cells{
