@@ -54,7 +54,7 @@ body {
 .jumioMsg {
 	padding-bottom: 10%;
 	margin-left: 10%;
-	color: #50528f;
+	color: white;
 	font-size: 18px;
 	font-weight: 600;
 	white-space: pre-line;
@@ -250,7 +250,6 @@ body {
 	.jumioMsg {
 		top: 10vh;
 		position: absolute;
-		color: white;
 		padding-bottom: unset;
 	}
 }
@@ -625,7 +624,6 @@ footer .glyphicon {
 	}
 	.jumioMsg {
 		position: unset;
-		color: white;
 		margin-top: 15vh;
     	padding-bottom: 10vh;
 	}
