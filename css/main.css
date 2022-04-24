@@ -59,6 +59,7 @@ body {
 	font-weight: 600;
 	white-space: pre-line;
 	min-width: 270px;
+	line-height: 30px;
 }
 
 .logo {
@@ -157,6 +158,9 @@ body {
 		background-image: url("../img/jumioBg.jpg");
 		background-size: 125%;
     	background-position: 50% -250px;
+	}
+	.jumioMsg {
+		min-width: 360px;
 	}
 	.cells{
 		width:800px;
