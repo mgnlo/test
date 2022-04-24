@@ -65,7 +65,7 @@ servicePics.forEach((service, index) => {
 window.addEventListener('resize', function(event) {
   servicePics.forEach((service, index) => {
     let num = index + 1;
-    console.log($(window).width())
+    // console.log($(window).width())
     if ($(window).width() < 567) {
       $('.cell:nth-child('+num+')').css('background-size', service.size);
     }
