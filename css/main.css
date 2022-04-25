@@ -28,6 +28,7 @@ body {
 	position: relative;
     margin: 0;
 	height: 100vh;
+	width: 100vw;
 	/* font: 400 15px 'Source Sans Pro', serif; */
 }
 
@@ -60,6 +61,22 @@ body {
 	white-space: pre-line;
 	min-width: 270px;
 	line-height: 30px;
+}
+
+.alert {
+	color: #ed2a2a;
+	text-shadow: 0.1em 0.1em 1em #a3c4ff;
+}
+
+.warning {
+	color: yellow;
+	text-shadow: 0.1em 0.1em 1em cornflowerblue;
+}
+
+.success {
+	color: white;
+	text-shadow: 0.1em 0.1em 1em cornflowerblue;
+	font-size: 28px;
 }
 
 .logo {
@@ -163,7 +180,7 @@ body {
 		min-width: 360px;
 	}
 	.cells{
-		width:800px;
+		width:1200px;
 		flex-wrap: wrap;
 		justify-content: center;
 	}
@@ -625,11 +642,11 @@ footer .glyphicon {
 		background-image: url("../img/jumioBg2.jpg");
 		background-position: 45% 50%;
 		background-size: 100vw;
+		height: 100vh;
 	}
 	.jumioMsg {
 		position: unset;
-		margin-top: 15vh;
-    	padding-bottom: 10vh;
+		margin: 15vh 20%;
 	}
 	.card .cardIcon{
 		width:130px;
@@ -698,6 +715,9 @@ footer .glyphicon {
 }
 
 @media only screen and (max-width: 554px) {
+	.success {
+		font-size: 20px;
+	}
 	.jumioBox {
 		display: inline-block;
 		margin: unset;

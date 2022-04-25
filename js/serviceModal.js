@@ -17,6 +17,25 @@ let servicePics = [
       info:['有關 BitSight 公司資訊請詳'],
       tel:'02-8786-9221'
     },
+    {name: 'Jumio', img: './img/jumio.svg', size:'110px', sizeMax:'200px', id:'jModal',
+      links:['https://www.jumio.com/'],
+      content:[`Jumio AML & KYC全球智能身份識別驗證服務是真正意義上的全球第一 No.1的國際級身份識別驗證服務。\r\n
+      Jumio AML & KYC全球智能身份識別驗證服務支援全球200多個國家，4,000多種以上的身份證件(PII)包含身份證，駕照及護照等。\r\n
+      Jumio 以符合ISO 30107-32 級認證的活體檢測技術進行反詐欺合規驗證作業。並且其身份識別驗證處理符合各式個資處理作業規範包含PCI, KYC, AML, PSD2，以及最嚴格的歐盟GDPR規範。\r\n
+      Jumio AML & KYC全球智能身份識別驗證效能為業界最高的過真率及拒假率。能絕對有效大幅降低企業進行AML(反洗錢)及KYC(Know Your Customer)的獲客及客戶管理作業人工查核作業困擾。\r\n
+      FinTech金融科技及Metaverse元宇宙整合的數位時代即將來臨。佈局此前所未有的數位時代，企業的獲客策略一定需要 Jumio AML & KYC全球智能身份識別驗證服務!`],
+      info:['有關 Jumio公司資訊請詳'],
+      tel:'02-8786-9221'
+    },
+    {name: 'Noname', img: './img/noname.svg', size:'110px', sizeMax:'200px', id:'nModal',
+      links:['https://nonamesecurity.com/'],
+      content:`隨著金管會推動的 Open Banking 即將進入第二階段，不同企業透過 API 串聯金融服務，推出創新形態的FinTech商品的數位服務時代即將來臨。\r\n
+      並且隨著元宇宙形態的新型數位環境逐漸成型，各行各業在跨越虛擬與實體世界間的業務模式即將帶來顛覆性的衝擊。此亦意味著串聯虛擬及實體的API數位經濟商業模式已經到來。\r\n
+      根據全球知名產業調查研究機構 Gartner 的預估，財星（Fortune）前1,000大企業中將有超過75% 的公司會運用API來開創新業務或推動數位轉型，且在2022年API攻擊將會成為企業機敏資訊洩漏的最主要攻擊方式。\r\n
+      也因此專注於API Security資安領域的領導廠商 Noname Security 推出其領先於業界的獨家DART解決方案, 發現分析補救測試客戶環境中的所有API資安威脅，符合OWASP開放網路軟體安全計畫API 10大風險作業規範要求。7x24保護並強化客戶所有API, 有效抵禦來自駭客針對API的侵入及攻擊。`,
+      info:['有關 Noname Security公司資訊請詳'],
+      tel:'02-8786-9221'
+    },
     {name: 'ExtraHop', img: './img/extrahop.svg', size: '130px', sizeMax:'270px', id:'ehModal',
       links:['https://www.extrahop.com/'],
       content:
@@ -30,25 +49,7 @@ let servicePics = [
       info:['有關 Sophos 公司資訊請詳'],
       tel:'02-8786-9221'
     },
-    {name: 'Noname', img: './img/noname.svg', size:'110px', sizeMax:'200px', id:'nModal',
-      links:['https://nonamesecurity.com/'],
-      content:`隨著金管會推動的 Open Banking 即將進入第二階段，不同企業透過 API 串聯金融服務，推出創新形態的FinTech商品的數位服務時代即將來臨。\r\n
-      並且隨著元宇宙形態的新型數位環境逐漸成型，各行各業在跨越虛擬與實體世界間的業務模式即將帶來顛覆性的衝擊。此亦意味著串聯虛擬及實體的API數位經濟商業模式已經到來。\r\n
-      根據全球知名產業調查研究機構 Gartner 的預估，財星（Fortune）前1,000大企業中將有超過75% 的公司會運用API來開創新業務或推動數位轉型，且在2022年API攻擊將會成為企業機敏資訊洩漏的最主要攻擊方式。\r\n
-      也因此專注於API Security資安領域的領導廠商 Noname Security 推出其領先於業界的獨家DART解決方案, 發現分析補救測試客戶環境中的所有API資安威脅，符合OWASP開放網路軟體安全計畫API 10大風險作業規範要求。7x24保護並強化客戶所有API, 有效抵禦來自駭客針對API的侵入及攻擊。`,
-      info:['有關 Noname Security公司資訊請詳'],
-      tel:'02-8786-9221'
-    },
-    {name: 'Jumio', img: './img/jumio.svg', size:'110px', sizeMax:'200px', id:'jModal',
-      links:['https://www.jumio.com/'],
-      content:[`Jumio AML & KYC全球智能身份識別驗證服務是真正意義上的全球第一 No.1的國際級身份識別驗證服務。\r\n
-      Jumio AML & KYC全球智能身份識別驗證服務支援全球200多個國家，4,000多種以上的身份證件(PII)包含身份證，駕照及護照等。\r\n
-      Jumio 以符合ISO 30107-32 級認證的活體檢測技術進行反詐欺合規驗證作業。並且其身份識別驗證處理符合各式個資處理作業規範包含PCI, KYC, AML, PSD2，以及最嚴格的歐盟GDPR規範。\r\n
-      Jumio AML & KYC全球智能身份識別驗證效能為業界最高的過真率及拒假率。能絕對有效大幅降低企業進行AML(反洗錢)及KYC(Know Your Customer)的獲客及客戶管理作業人工查核作業困擾。\r\n
-      FinTech金融科技及Metaverse元宇宙整合的數位時代即將來臨。佈局此前所未有的數位時代，企業的獲客策略一定需要 Jumio AML & KYC全球智能身份識別驗證服務!`],
-      info:['有關 Jumio公司資訊請詳'],
-      tel:'02-8786-9221'
-    }
+    
   ]
 
 servicePics.forEach((service, index) => {
