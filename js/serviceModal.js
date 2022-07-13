@@ -102,7 +102,11 @@ class ServiceModal extends React.Component {
       }
       let infos = service.links.map((link, i) =>{
         let linkSpan = m('a', {key: 'link'+i, href:link, target:'_blank'}, link);
-        return m('p', {key: 'infos'+i, className:"linkSpan text-left"}, ["有關 "+service.info[i]+" 公司資訊請詳 ", linkSpan]);
+        if(i == 0){
+          return m('p', {key: 'infos'+i, className:"linkSpan text-left"}, ["有關 "+service.info[i]+" 公司資訊請詳 ", linkSpan]);
+        } else {
+          return m('p', {key: 'infos'+i, className:"linkSpan text-left"}, [service.info[i], linkSpan]);
+        }
       })
       let telLink = m('a', {key:'telLink'+index, href:'tel:'+service.tel},service.tel);
       let tel = m('p', {key: 'tel'+index, className:"modal-tel text-left"}, ["如需進一步產品說明，請聯繫本公司服務電話：",telLink]);
