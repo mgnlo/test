@@ -13,7 +13,7 @@ let servicePics = [
       links:['https://www.bitsight.com/security-ratings'],
       content:
       `BitSight是全球第一 No.1 資安評級服務平台業者，也是 Cyber Security Risk Rating / Security Scoring 資安評級的標準 - 《公平和準確安全評級原則指南》(Guidelines for Principals of Fair and Accurate Security Rating)。\r\n
-      BitSight自2013年發佈全球首家 Security Rating / Security Scoring Service 資安評級服務以來，全球最⼤的10家網路保險公司中的7家、Fortune 500 中超過25%跨國大型企業中，以及前5⼤投資銀⾏中的3家都依賴 BitSight Security Rating Service 資安評級服務來改善並增強企業本身的資安管理績效，以及其第三方/供應鏈資安風險管理。\r\n`,
+      BitSight自2013年發佈全球首家 Security Rating / Security Scoring Service 資安評級服務以來，全球最大的10家網路保險公司中的7家、Fortune 500 中超過25%跨國大型企業中，以及前5大投資銀行中的3家都依賴 BitSight Security Rating Service 資安評級服務來改善並增強企業本身的資安管理績效，以及其第三方/供應鏈資安風險管理。\r\n`,
       info:['BitSight'],
       tel:'02-8786-9221'
     },
