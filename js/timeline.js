@@ -1,9 +1,8 @@
 const tl = React.createElement;
 let timeLines = [
+    {year:2023, toNow: false, description:'導入領導品牌 Recorded Future 暗網威脅攻擊情資偵蒐服務。服務範圍覆蓋全球地緣政治，產業及企業。機器學習暗網情資分析威脅攻擊並即時預警。'},
     {year:2022, toNow: false, description:'導入Vectra AI Threat Detection & Response全球領先智能資安威脅偵測及回應服務。並與各式資安管理系統整合即時阻擋封鎖資安威脅攻擊事件。'},
     {year:2022, toNow: false, description:'導入Jumio AML & KYC 全球智能身份識別驗證服務。符合最嚴格的歐盟GDPR規範。支援全球200多個國家證件及智能活體身份驗證。'},
-    {year:2022, toNow: false, description:'導入Noname API Security 解決方案。業界獨創的DART管理功能，符合OWASP 10大API資安管理規範要求並有效抵禦API資安攻擊。'},
-    // {year:2021, toNow: false, description:'導入ExtraHop Network Detection & Response Solution 業界先進的智能網路流量偵測及回應資安分析 NDR 解決方案。'},
     {year:2021, toNow: false, description:'導入BitSight Security Rating Service－全球 No.1 及業界標準的資安風險評級 (Security Rating / Security Scoring) 服務。'},
     {year:2015, toNow: true, description:'國內30家以上大型金融機構及金控持續並大量採用RSA外部偽冒偵測關閉服務 (FraudAction Service)'},
     {year:2014, toNow: false, description:'喬昱科技與凱擘大電視、亞太電信、國喬石化、怡德視訊等企業簽署設備供應合約。'},
