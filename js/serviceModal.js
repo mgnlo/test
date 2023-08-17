@@ -38,7 +38,7 @@ let servicePics = [
       <li>與數據流和應用系統透明整合，以實現Comforte在個資保護的價值及擺脫傳統加密機制個資保護的困境。</li>Gartner 2022年數據安全平台融合戰略路線圖，Joerg Fritsch、Brian Lowans、David Mahdi 對於 Comforte Data Centric Security Platform 的評語：\r\n
       “成功的資安與風險管理領導者可以通過從孤立的數據安全產品過渡到數據安全平台，顯著提高數據的業務利用率和價值，從而實現更簡單、一致的端到端安全性。 數據安全平台產品提供並保護這種未來狀態。”\r\n
       Comforte Data Centric Security Service
-      符合 PCI-DSS, HIPAA，PDPA及GDPR等個資保護法規要求及ANSI X9 代碼化技術標準。\r\n
+      符合 PCI-DSS，HIPAA，PDPA及GDPR等個資保護法規要求及ANSI X9 代碼化技術標準。\r\n
       Comforte 客戶覆蓋
       全球前25大銀行中的15家
       全球前15大零售商中的3家
