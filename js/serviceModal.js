@@ -9,12 +9,12 @@ let servicePics = [
       info:['RSA','詳細Outseer 公司及FraudAction Service 外部偽冒偵測關閉服務資訊請詳'],
       tel:'02-8786-9221'
     },
-    {name: 'BitSight', img: './img/bs.svg', size: '110px', sizeMax:'180px',id:'bsModal',
+    {name: 'Bitsight', img: './img/bs.svg', size: '110px', sizeMax:'240px',id:'bsModal',
       links:['https://www.bitsight.com/security-ratings'],
       content:
-      `BitSight是全球第一 No.1 資安評級服務平台業者，也是 Cyber Security Risk Rating / Security Scoring 資安評級的標準 - 《公平和準確安全評級原則指南》(Guidelines for Principals of Fair and Accurate Security Rating)。\r\n
-      BitSight自2013年發佈全球首家 Security Rating / Security Scoring Service 資安評級服務以來，全球最大的10家網路保險公司中的7家、Fortune 500 中超過25%跨國大型企業中，以及前5大投資銀行中的3家都依賴 BitSight Security Rating Service 資安評級服務來改善並增強企業本身的資安管理績效，以及其第三方/供應鏈資安風險管理。\r\n`,
-      info:['BitSight'],
+      `Bitsight是全球第一 No.1 資安評級服務平台業者，也是 Cyber Security Risk Rating / Security Scoring 資安評級的標準 - 《公平和準確安全評級原則指南》(Guidelines for Principals of Fair and Accurate Security Rating)。\r\n
+      Bitsight自2013年發佈全球首家 Security Rating / Security Scoring Service 資安評級服務以來，全球最大的10家網路保險公司中的7家、Fortune 500 中超過25%跨國大型企業中，以及前5大投資銀行中的3家都依賴 Bitsight Security Rating Service 資安評級服務來改善並增強企業本身的資安管理績效，以及其第三方/供應鏈資安風險管理。\r\n`,
+      info:['Bitsight'],
       tel:'02-8786-9221'
     },
     {name: 'Vectra', img: './img/vectra.svg', size: '110px', sizeMax:'200px', id:'vModal',
@@ -25,6 +25,27 @@ let servicePics = [
       <li>最大限度地減少誤報並減少SOC工作量並加速調查速度</li>
       <li>通過與現有資安管理系統的緊密整合，快速嚮應並啟動資安威脅攻擊的防堵機制</li>Vectra AI Threat Detection & Response 是目前市場上符合 MITRE資安威脅攻擊行為偵測規範高達90%的解決方案，並且也是唯一一家AI專利被 MITRE D3FEND採用的企業(12項AI專利)。是企業進行內部資安探索、觀察、分析並智能化處理本地端與雲端中的所有資安攻擊威脅事件的最佳解決方案。\r\n`,
       info:['Vectra AI'],
+      tel:'02-8786-9221'
+    },
+    {name: 'Comforte', img: './img/comforte.svg', size: '110px', sizeMax:'200px', id:'cfModal',
+      links:['https://www.comforte.com/'],
+      content:
+      `Comforte – 資安橫行年代保護個人機敏資料的最後一道防線！
+      Comforte作為以數據為中心的資安解決方案領導者，我們確保企業寶貴的客戶機敏資料數據隨時隨地都是安全的。
+      <li>人工智能輔助數據發現，可查找所有客戶的機敏數據，包括您不知道存在系統中的個資數據。</li>
+      <li>提供多種假名和匿名保護方法，同時保留個資數據處理和分析的實用性。</li>
+      <li>與 Kubernetes 和 VMware 深度整合，並結合數據安全即代碼以實現 DevOps 和自動化。</li>
+      <li>與數據流和應用系統透明整合，以實現Comforte在個資保護的價值及擺脫傳統加密機制個資保護的困境。</li>Gartner 2022年數據安全平台融合戰略路線圖，Joerg Fritsch、Brian Lowans、David Mahdi 對於 Comforte Data Centric Security Platform 的評語：\r\n
+      “成功的資安與風險管理領導者可以通過從孤立的數據安全產品過渡到數據安全平台，顯著提高數據的業務利用率和價值，從而實現更簡單、一致的端到端安全性。 數據安全平台產品提供並保護這種未來狀態。”\r\n
+      Comforte Data Centric Security Service
+      符合 PCI-DSS, HIPAA，PDPA及GDPR等個資保護法規要求及ANSI X9 代碼化技術標準。\r\n
+      Comforte 客戶覆蓋
+      全球前25大銀行中的15家
+      全球前15大零售商中的3家
+      全球最大的3家信用卡處理商 VISA，MASTERCARD及DISCOVER
+      各產業龍頭企業均已使用 Comforte 服務多年，作為保護其客戶及消費者機敏資料的最後一道資安防線。
+      `,
+      info:['Comforte'],
       tel:'02-8786-9221'
     },
     {name: 'Recorded Future', img: './img/rf.svg', size:'110px', sizeMax:'200px', id:'rfModal',
@@ -41,16 +62,6 @@ let servicePics = [
       <li>Identity Intelligence 身份情報</li>
       <li>Attack Surface Intelligence 攻擊面情報</li>`,
       info:['Recorded Future'],
-      tel:'02-8786-9221'
-    },
-    {name: 'Jumio', img: './img/jumio.svg', size:'110px', sizeMax:'200px', id:'jModal',
-      links:['https://www.jumio.com/'],
-      content:`Jumio AML & KYC全球智能身份識別驗證服務是真正意義上的全球第一 No.1的國際級身份識別驗證服務。\r\n
-      Jumio AML & KYC全球智能身份識別驗證服務支援全球200多個國家，4,000多種以上的身份證件(PII)包含身份證，駕照及護照等。\r\n
-      Jumio 以符合ISO 30107-32 級認證的活體檢測技術進行反詐欺合規驗證作業。並且其身份識別驗證處理符合各式個資處理作業規範包含PCI, KYC, AML, PSD2，以及最嚴格的歐盟GDPR規範。\r\n
-      Jumio AML & KYC全球智能身份識別驗證效能為業界最高的過真率及拒假率。能絕對有效大幅降低企業進行AML(反洗錢)及KYC(Know Your Customer)的獲客及客戶管理作業人工查核作業困擾。\r\n
-      FinTech金融科技及Metaverse元宇宙整合的數位時代即將來臨。佈局此前所未有的數位時代，企業的獲客策略一定需要 Jumio AML & KYC全球智能身份識別驗證服務!`,
-      info:['Jumio'],
       tel:'02-8786-9221'
     },
     {name: 'Sophos', img: './img/sophos.svg', size:'130px', sizeMax:'200px', id:'sModal',
