@@ -1,6 +1,7 @@
 const tl = React.createElement;
 let timeLines = [
-    {year:2023, toNow: false, description:'導入全球第一個資防護Comforte Data Centric Security Service 假名化代碼化服務。符合PCI-DSS, HIPAA, PDPA, GDPR及ANSI X9代碼化技術標準。'},
+    {year:2024, toNow: false, description:'導入Sumsub KYC & AML全球智能身份識別驗證服務。符合最嚴格的歐盟GDPR規範並支援全球200多個國家4,000種以上證件, 及通過iBeta深偽(Deepfake)防護智能活體身份驗證。'},
+    {year:2023, toNow: false, description:'導入全球第一個資防護comforte Data Centric Security Service 假名化代碼化服務。符合PCI-DSS, HIPAA, PDPA, GDPR及ANSI X9代碼化技術標準。'},
     {year:2023, toNow: false, description:'導入領導品牌 Recorded Future 暗網威脅攻擊情資偵蒐服務。服務範圍覆蓋全球地緣政治，產業及企業。機器學習暗網情資分析威脅攻擊並即時預警。'},
     {year:2022, toNow: false, description:'導入Vectra AI Threat Detection & Response全球領先智能資安威脅偵測及回應服務。並與各式資安管理系統整合即時阻擋封鎖資安威脅攻擊事件。'},
     {year:2021, toNow: false, description:'導入Bitsight Security Rating Service－全球 No.1 及業界標準的資安風險評級 (Security Rating / Security Scoring) 服務。'},
