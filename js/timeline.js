@@ -22,8 +22,8 @@ class Timeline extends React.Component {
         let yearText = (timeline.toNow) ? timeline.year+"~現在" : timeline.year;
         let yearClass = (timeline.toNow) ? "year now": "year";
         let year = tl('div', {key:'year'+i, className: yearClass}, yearText);
-        let a = tl('a', {key:"href"+i, href:'./portfolio.html#', className: "timeline-content"}, [year, inner]);
-        return tl('div', {key:"timeline"+i, className: "timeline"}, a);
+        let span = tl('span', {key:"href"+i, href:'./portfolio.html#', className: "timeline-content"}, [year, inner]);
+        return tl('div', {key:"timeline"+i, className: "timeline"}, span);
     });
   }
 }
