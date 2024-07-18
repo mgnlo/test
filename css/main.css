@@ -548,6 +548,10 @@ h4 {
 	color: #fff;
 }
 
+.brand {
+	padding-top: 70px;
+}
+
 .navbar {
 	margin-bottom: 0;
 	background-color: #45b4e6;
@@ -833,7 +837,18 @@ ol > li:before {
 .pretty {
 	text-align: justify;
 }
-
+.mt_10{
+	margin-top: 10px;
+}
+.mb_15{
+	margin-bottom: 15px;
+}
+.mb_45{
+	margin-bottom: 45px;
+}
+.textSpace {
+	letter-spacing: 1px;
+}
 .highlight {
 	background-color: yellow !important;
 }
