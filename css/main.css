@@ -829,3 +829,7 @@ ol > li:before {
 	content: counters(item, ".") " ";
 	counter-increment: item;
 }
+
+.pretty {
+	text-align: justify;
+}
