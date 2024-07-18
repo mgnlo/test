@@ -423,6 +423,13 @@ h2 {
 	margin-bottom: 30px;
 }
 
+h3 {
+	font-size: 18px;
+	color: #303030;
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+
 h4 {
 	font-size: 14px;
 	line-height: 1.375em;
@@ -813,4 +820,12 @@ footer .glyphicon {
 
 #serCore {
 	margin-bottom: 10%;
+}
+
+ol{ counter-reset: item; padding-right: 30px;}
+ol > li{ display: table-row;}
+ol > li:before {
+	display: table-cell;
+	content: counters(item, ".") " ";
+	counter-increment: item;
 }
