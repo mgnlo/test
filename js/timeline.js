@@ -1,5 +1,7 @@
 const tl = React.createElement;
 let timeLines = [
+    {year:2024, toNow: false, description:'導入領先業界的Cyble - AI Powered GEN 3人工智慧驅動暗網威脅情資解決方案。以洞察力和直覺式的原生性AI機制，能快速偵測發現入侵前、入侵中和入侵各階段的全生命週期暗網威脅情資。'},
+    {year:2024, toNow: false, description:'導入ZTA零信任解決方案領導品牌Illumio。符合ZTA 2.0最嚴格要求的微分隔規範。提供可視化管理機制，有效阻擋資安攻擊威脅入侵後的橫向移動，並對企業重要數位資產提供全面資安防護。'},
     {year:2024, toNow: false, description:'導入Sumsub KYC & AML全球智能身份識別驗證服務。符合最嚴格的歐盟GDPR規範並支援全球200多個國家4,000種以上證件, 及通過iBeta深偽(Deepfake)防護智能活體身份驗證。'},
     {year:2023, toNow: false, description:'導入全球第一個資防護comforte Data Centric Security Service 假名化代碼化服務。符合PCI-DSS, HIPAA, PDPA, GDPR及ANSI X9代碼化技術標準。'},
     {year:2023, toNow: false, description:'導入領導品牌 Recorded Future 暗網威脅攻擊情資偵蒐服務。服務範圍覆蓋全球地緣政治，產業及企業。機器學習暗網情資分析威脅攻擊並即時預警。'},

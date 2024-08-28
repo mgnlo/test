@@ -136,7 +136,7 @@
 .main-timeline .timeline:nth-child(7n) .timeline-content{ background: #8f55b1; }
 .main-timeline .timeline:nth-child(7n),
 .main-timeline .timeline:nth-child(7n) .inner-content{ color: #8f55b1; }
-.main-timeline .timeline:nth-child(7n):after{ border-right-color: #8f55b1; }
+.main-timeline .timeline:nth-child(7n):after{ border-right-color: #8f55b1; border-left-color: #8f55b1;}
 
 .year:nth-child(even).now{
     left: -5%;
@@ -200,7 +200,7 @@
     .main-timeline .timeline:nth-child(4n):after{ border-right-color: #6861aa; }
     .main-timeline .timeline:nth-child(5n):after{ border-left-color: #63b5d8; border-right-color: #63b5d8;}
     .main-timeline .timeline:nth-child(6n):after{ border-left-color: #5596b1; border-right-color: #5596b1;}
-    .main-timeline .timeline:nth-child(7n):after{ border-left-color: #8f55b1; }
+    .main-timeline .timeline:nth-child(7n):after{ border-left-color: #8f55b1; border-right-color: #8f55b1;}
     .main-timeline .timeline:nth-child(even) .year.now{
         left: -15px!important;
     }
