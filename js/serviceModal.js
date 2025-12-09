@@ -1,10 +1,10 @@
 let servicePics = [
     {name: 'RSA', img:'./img/rsa.svg', size: '80px', sizeMax: '150px', id:'rsaModal'},
     {name: 'Bitsight', img: './img/bs.svg', size: '110px', sizeMax:'240px',id:'bsModal'},
-    {name: 'comforte', img: './img/comforte.svg', size: '110px', sizeMax:'200px', id:'cfModal'},
+    {name: 'Sumsub', img: './img/sumsub.svg', size:'130px', sizeMax:'200px', id:'sModal'},
     {name: 'Cyble', img: './img/cyble.png', size:'110px', sizeMax:'200px', id:'cModal'},
     {name: 'Illumio', img: './img/illumio.svg', size: '110px', sizeMax:'200px', id:'iModal'},
-    {name: 'Sumsub', img: './img/sumsub.svg', size:'130px', sizeMax:'200px', id:'sModal'}
+    {name: 'Aikido', img: './img/aikido.svg', size: '110px', sizeMax:'200px', id:'aModal'},
   ]
 
 servicePics.forEach((service, index) => {
