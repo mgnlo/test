@@ -114,18 +114,24 @@ body {
 	text-align: left;
 	white-space: pre-line;
 	color: rgb(65, 63, 77);
-	font-weight: 400;
+	font-weight: 350;
+    margin: auto -1px;
 }
 
 .modalContent li {
 	list-style: square;
 	text-align: left;
 	padding-bottom: 5px;
+    margin-left: 15px;
 }
 
 .modalContent b {
 	text-align: left;
 	font-weight: 700;
+}
+
+.modalContent span {
+	font-weight: 500;
 }
 
 .underline {
@@ -352,56 +358,6 @@ body {
 	background-repeat: no-repeat;
 	background-image: url("../img/logo.svg");
 	margin: 0 5px;
-}
-
-#c1 {
-	padding: 0 40%;
-	background-color: rgba(255, 255, 255, 0.8);
-	background-image: url("../img/utimacoLogo-2.png");
-	background-repeat: no-repeat;
-	background-size: 85%;
-	background-position-x: 55%;
-	background-position-y: 57%;
-	width: 80%;
-	height: 25%;
-	margin: 3%;
-}
-
-#c2 {
-	padding: 0 40%;
-	background-color: rgba(255, 255, 255, 0.8);
-	background-image: url("../img/rsaLogo.png");
-	background-repeat: no-repeat;
-	background-size: 63%;
-	background-position-x: 55%;
-	background-position-y: 40%;
-	width: 80%;
-	height: 25%;
-	margin: 3%;
-}
-
-#c3 {
-	padding: 0 40%;
-	background-color: rgba(255, 255, 255, 0.8);
-	background-image: url("../img/sumsub.svg");
-	background-repeat: no-repeat;
-	background-size: 80%;
-	background-position: center;
-	width: 80%;
-	height: 25%;
-	margin: 3%;
-}
-
-#c4 {
-	padding: 0 40%;
-	background-color: rgba(255, 255, 255, 0.8);
-	background-image: url("../img/gtbLogo.png");
-	background-repeat: no-repeat;
-	background-size: 90%;
-	background-position: center;
-	width: 80%;
-	height: 25%;
-	margin: 3%;
 }
 
 .col6 {

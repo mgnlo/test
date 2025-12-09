@@ -1,5 +1,6 @@
 const tl = React.createElement;
 let timeLines = [
+    {year:2025, toNow: false, description:'導入創新業界的一站式程式碼掃描及漏洞修復服務Aikido Security – 確保企業所建置、託管和運行的所有應用系統，從程式碼開始都安全無虞。並且以提供Agentic AI Pentesting 機制執行程式碼漏洞偵測，漏洞風險影響分析及一鍵漏洞修復功能。'},
     {year:2024, toNow: false, description:'導入領先業界的Cyble - AI Powered GEN 3人工智慧驅動暗網威脅情資解決方案。以洞察力和直覺式的原生性AI機制，能快速偵測發現入侵前、入侵中和入侵各階段的全生命週期暗網威脅情資。'},
     {year:2024, toNow: false, description:'導入ZTA零信任解決方案領導品牌Illumio。符合ZTA 2.0最嚴格要求的微分隔規範。提供可視化管理機制，有效阻擋資安攻擊威脅入侵後的橫向移動，並對企業重要數位資產提供全面資安防護。'},
     {year:2024, toNow: false, description:'導入Sumsub KYC & AML全球智能身份識別驗證服務。符合最嚴格的歐盟GDPR規範並支援全球200多個國家4,000種以上證件, 及通過iBeta深偽(Deepfake)防護智能活體身份驗證。'},
